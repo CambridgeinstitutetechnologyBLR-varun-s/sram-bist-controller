@@ -1,0 +1,19 @@
+Design Name: bist_top
+Run Directory: /openlane/designs/bist_top/runs/RUN_2026.08.02_17.54.18
+----------------------------------------
+
+Magic DRC Summary:
+Source: /openlane/designs/bist_top/runs/RUN_2026.08.02_17.54.18/reports/signoff/drc.rpt
+Total Magic DRC violations is 0
+----------------------------------------
+
+LVS Summary:
+Source: /openlane/designs/bist_top/runs/RUN_2026.08.02_17.54.18/logs/signoff/39-bist_top.lef.lvs.log
+Number of nets: 933                        |Number of nets: 933                        
+Design is LVS clean.
+----------------------------------------
+
+Antenna Summary:
+Source: /openlane/designs/bist_top/runs/RUN_2026.08.02_17.54.18/logs/signoff/41-arc.log
+Pin violations: 1
+Net violations: 1

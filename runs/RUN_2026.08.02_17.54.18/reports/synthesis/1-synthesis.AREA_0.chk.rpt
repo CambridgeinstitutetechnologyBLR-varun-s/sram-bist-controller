@@ -1,0 +1,6 @@
+
+65. Executing CHECK pass (checking for obvious problems).
+Checking module bist_top...
+Warning: Wire bist_top.\pass_fail is used but has no driver.
+Warning: Wire bist_top.\done is used but has no driver.
+Found and reported 2 problems.

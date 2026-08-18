@@ -1,0 +1,22 @@
+[ERROR]: There are XOR differences in the design: See 'runs/RUN_2026.07.07_06.59.45/reports/signoff/38-xor.rpt' for details.
+[ERROR]: Step 38 (gds_klayout) failed with error:
+-code 1 -level 0 -errorcode NONE -errorinfo {
+    while executing
+"throw_error"
+    (procedure "quit_on_xor_error" line 11)
+    invoked from within
+"quit_on_xor_error  -log $report"
+    (procedure "run_klayout_gds_xor" line 28)
+    invoked from within
+"run_klayout_gds_xor"
+    (procedure "run_klayout_step" line 6)
+    invoked from within
+"run_klayout_step"} -errorline 1
+[ERROR]: Failed to create manufacturability and metric reports:
+[ERROR]: Traceback (most recent call last):
+  File "/openlane/scripts/generate_reports.py", line 23, in <module>
+    from report.report import Report
+  File "/openlane/scripts/report/report.py", line 26, in <module>
+    from config.config import ConfigHandler  # noqa E402
+ModuleNotFoundError: No module named 'config.config'; 'config' is not a package
+[ERROR]: Flow failed.

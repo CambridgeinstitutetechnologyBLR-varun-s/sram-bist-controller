@@ -1,0 +1,4 @@
+    82/82: $0\protocol_error[0:0]
+Creating register for signal `$paramod$68405b8dfca755b266af259f9da6c1ca0c28e767\sram_wrapper.\protocol_error' using process `$paramod$68405b8dfca755b266af259f9da6c1ca0c28e767\sram_wrapper.$proc$/openlane/designs/bist_top/src/sram_wrapper.v:41$82'.
+Adding EN signal on $flatten\u_sram.$procdff$2928 ($adff) from module bist_top (D = 1'1, Q = \u_sram.protocol_error).
+ABC: Error: The network is combinational.

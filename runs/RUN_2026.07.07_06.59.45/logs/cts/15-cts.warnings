@@ -1,0 +1,4 @@
+[WARNING STA-0053] /openlane/designs/bist_top/macros/sram_64x4.lib line 1, library sram_64x4_TT_1p0V_25C_lib already exists.
+[WARNING STA-0053] /openlane/designs/bist_top/macros/sram_64x4.lib line 1, library sram_64x4_TT_1p0V_25C_lib already exists.
+[WARNING CTS-0043] 4896 wires are pure wire and no slew degradation.
+[WARNING CTS-0045] Creating fake entries in the LUT.

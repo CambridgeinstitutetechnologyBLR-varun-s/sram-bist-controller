@@ -1,0 +1,6 @@
+<< properties >>
+string FIXED_BBOX 0 0 30713 32857
+string GDS_END 2689816
+string GDS_FILE /openlane/designs/bist_top/runs/RUN_2026.08.03_14.45.44/results/signoff/bist_top.magic.gds
+string GDS_START 496286
+<< end >>

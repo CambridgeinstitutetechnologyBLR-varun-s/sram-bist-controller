@@ -1,0 +1,75 @@
+OpenROAD 41a51eaf4ca2171c92ff38afb91eb37bbd3f36da 
+This program is licensed under the BSD-3 license. See the LICENSE file for details.
+Components of this program may be licensed under more restrictive licenses which must be honored.
+[INFO]: Reading ODB at '/openlane/designs/bist_top/runs/RUN_2026.07.07_06.59.45/tmp/20-bist_top.odb'…
+define_corners Typical
+read_liberty -corner Typical /root/.ciel/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__tt_025C_1v80.lib
+read_liberty -corner Typical /openlane/designs/bist_top/macros/sram_64x4.lib
+Using 1e-12 for capacitance...
+Using 1e+03 for resistance...
+Using 1e-09 for time...
+Using 1e+00 for voltage...
+Using 1e-03 for current...
+Using 1e-09 for power...
+Using 1e-06 for distance...
+Reading design constraints file at '/openlane/designs/bist_top/runs/RUN_2026.07.07_06.59.45/tmp/20-bist_top.sdc'…
+[INFO]: Setting signal min routing layer to: met1 and clock min routing layer to met3. 
+[INFO]: Setting signal max routing layer to: met5 and clock max routing layer to met5. 
+-congestion_iterations 50 -verbose -congestion_report_file /openlane/designs/bist_top/runs/RUN_2026.07.07_06.59.45/tmp/routing/groute-congestion.rpt
+[INFO GRT-0020] Min routing layer: met1
+[INFO GRT-0021] Max routing layer: met5
+[INFO GRT-0022] Global adjustment: 30%
+[INFO GRT-0023] Grid origin: (0, 0)
+[INFO GRT-0043] No OR_DEFAULT vias defined.
+[INFO GRT-0088] Layer li1     Track-Pitch = 0.4600  line-2-Via Pitch: 0.3400
+[INFO GRT-0088] Layer met1    Track-Pitch = 0.3400  line-2-Via Pitch: 0.3400
+[INFO GRT-0088] Layer met2    Track-Pitch = 0.4600  line-2-Via Pitch: 0.3500
+[INFO GRT-0088] Layer met3    Track-Pitch = 0.6800  line-2-Via Pitch: 0.6150
+[INFO GRT-0088] Layer met4    Track-Pitch = 0.9200  line-2-Via Pitch: 1.0400
+[INFO GRT-0088] Layer met5    Track-Pitch = 3.4000  line-2-Via Pitch: 3.1100
+[INFO GRT-0019] Found 18 clock nets.
+[INFO GRT-0001] Minimum degree: 2
+[INFO GRT-0002] Maximum degree: 17
+[INFO GRT-0003] Macros: 0
+[INFO GRT-0004] Blockages: 2263
+
+[INFO GRT-0053] Routing resources analysis:
+          Routing      Original      Derated      Resource
+Layer     Direction    Resources     Resources    Reduction (%)
+---------------------------------------------------------------
+li1        Vertical            0             0          0.00%
+met1       Horizontal      10120          5252          48.10%
+met2       Vertical         7590          4991          34.24%
+met3       Horizontal       5060          3582          29.21%
+met4       Vertical         3036          1752          42.29%
+met5       Horizontal       1012           441          56.42%
+---------------------------------------------------------------
+
+[INFO GRT-0101] Running extra iterations to remove overflow.
+[INFO GRT-0197] Via related to pin nodes: 3653
+[INFO GRT-0198] Via related Steiner nodes: 130
+[INFO GRT-0199] Via filling finished.
+[INFO GRT-0111] Final number of vias: 4096
+[INFO GRT-0112] Final usage 3D: 15343
+
+[INFO GRT-0096] Final congestion report:
+Layer         Resource        Demand        Usage (%)    Max H / Max V / Total Overflow
+---------------------------------------------------------------------------------------
+li1                  0             0            0.00%             0 /  0 /  0
+met1              5252          1339           25.50%             0 /  0 /  0
+met2              4991          1452           29.09%             0 /  0 /  0
+met3              3582           158            4.41%             0 /  0 /  0
+met4              1752           106            6.05%             0 /  0 /  0
+met5               441             0            0.00%             0 /  0 /  0
+---------------------------------------------------------------------------------------
+Total            16018          3055           19.07%             0 /  0 /  0
+
+[INFO GRT-0018] Total wirelength: 34603 um
+[INFO GRT-0014] Routed nets: 931
+[INFO GRT-0006] Repairing antennas, iteration 1.
+[INFO GRT-0043] No OR_DEFAULT vias defined.
+[INFO GRT-0012] Found 0 antenna violations.
+Setting global connections for newly added cells…
+Writing OpenROAD database to '/openlane/designs/bist_top/runs/RUN_2026.07.07_06.59.45/tmp/routing/22-global.odb'…
+Writing layout to '/openlane/designs/bist_top/runs/RUN_2026.07.07_06.59.45/tmp/routing/22-global.def'…
+Writing routing guides to '/openlane/designs/bist_top/runs/RUN_2026.07.07_06.59.45/tmp/routing/22-global.guide'…

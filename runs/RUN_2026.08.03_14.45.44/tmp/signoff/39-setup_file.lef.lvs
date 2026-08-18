@@ -1,0 +1,1 @@
+lvs {/openlane/designs/bist_top/runs/RUN_2026.08.03_14.45.44/results/signoff/bist_top.spice bist_top} {/openlane/designs/bist_top/runs/RUN_2026.08.03_14.45.44/tmp/signoff/36-bist_top.pnl.v bist_top} /home/varun/.ciel/sky130A/libs.tech/netgen/sky130A_setup.tcl /openlane/designs/bist_top/runs/RUN_2026.08.03_14.45.44/logs/signoff/39-bist_top.lef.lvs.log -json

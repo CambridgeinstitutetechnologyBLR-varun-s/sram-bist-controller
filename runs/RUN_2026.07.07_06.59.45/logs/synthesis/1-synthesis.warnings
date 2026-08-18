@@ -1,0 +1,7 @@
+Warning: Encountered `translate_off' comment! Such legacy hot comments are supported by Yosys, but are not part of any formal language specification. Using a portable and standards-compliant construct such as `ifdef is recommended!
+Warning: Replacing memory \mem with list of registers. See /openlane/designs/bist_top/src/sram_wrapper.v:54
+Warning: Replacing memory \mem with list of registers. See /openlane/designs/bist_top/src/sram_wrapper.v:54
+ABC: Warning: Detected 2 multi-output gates (for example, "sky130_fd_sc_hd__fa_1").
+Warning: Wire bist_top.\pass_fail is used but has no driver.
+Warning: Wire bist_top.\done is used but has no driver.
+Warnings: 4 unique messages, 5 total

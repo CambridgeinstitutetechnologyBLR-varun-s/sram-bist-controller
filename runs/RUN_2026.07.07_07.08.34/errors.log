@@ -1,0 +1,16 @@
+[ERROR]: Failed to create manufacturability and metric reports:
+[ERROR]: Traceback (most recent call last):
+  File "/openlane/scripts/generate_reports.py", line 23, in <module>
+    from report.report import Report
+  File "/openlane/scripts/report/report.py", line 26, in <module>
+    from config.config import ConfigHandler  # noqa E402
+ModuleNotFoundError: No module named 'config.config'; 'config' is not a package
+[ERROR]: /openlane/designs/bist_top/runs/RUN_2026.07.07_07.08.34/reports/signoff/31-rcx_sta.min.rpt doesn't exist.
+[ERROR]: Failed to create manufacturability and metric reports:
+[ERROR]: Traceback (most recent call last):
+  File "/openlane/scripts/generate_reports.py", line 23, in <module>
+    from report.report import Report
+  File "/openlane/scripts/report/report.py", line 26, in <module>
+    from config.config import ConfigHandler  # noqa E402
+ModuleNotFoundError: No module named 'config.config'; 'config' is not a package
+[ERROR]: Flow failed.
